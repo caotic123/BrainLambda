@@ -8,6 +8,7 @@ BrainLambda is a fully lambda calculus translator for Brainfuck language.
 BrainLambda catch instructions of BrainFuck Language ```+ - > < [ ]``` and interpreter this instructions of BrainLambda also are functions.
 
 # How was implemented?
+Was impelemented for BiwaScheme interpreter.
 Some details:
 
  * The instruction also are functions
