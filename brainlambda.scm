@@ -4,6 +4,10 @@
 
 ;only exist closures in variables(anonymous function) for Instructions and to descrive the intruction, however, all functions is represented in fully pure of lambda calculus, of course case you want you can discard theses variables
 
+;EFFECTS I/O
+;(display str) 2x
+;(print str) 2x
+
 (define add
   (lambda (x)
     ( ( ( ( ( (lambda (___)
