@@ -1,5 +1,8 @@
+;Instructions of brainfuck code is defined in instructions_lis closure
+;instructions_lis is a list that recevied the functions of instructions
+;the function of interpreter catch dynamic all values of Instructions and run
 
-
+;only exist closures in variables(anonymous function) for Instructions and to descrive the intruction, however, all functions is represented in fully pure of lambda calculus, of course case you want you can discard theses variables
 
 (define add
   (lambda (x)
