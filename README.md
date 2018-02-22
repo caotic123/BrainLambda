@@ -16,3 +16,4 @@ Some details:
  * BrainLambda NOT implement a parser or something like that
  * The main memory is a list where let until n so... (list (...n...)) inside the list has other two list so.... (list (list(ID, VALUE)..n..list(ID, VALUE)) where  the first value is a position of memory and second is value of cell.
  * The Anonymous function of instructions that exist can be discard
+ * Each lambda function only received one argument
